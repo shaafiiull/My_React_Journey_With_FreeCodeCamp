@@ -1,3 +1,4 @@
+import Calender from "./components/Calender";
 import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
 import ParentComponent from "./components/ParentComponent";
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       {/* <HelloJSX></HelloJSX> */}
       {/* <FirstCLassComponent></FirstCLassComponent> */}
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+      <Calender></Calender>
     </div>
   );
 }
