@@ -1,4 +1,5 @@
 import Calender from "./components/Calender";
+import Counter from "./components/Counter";
 import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
 import MyComponent from "./components/MyComponent";
@@ -17,7 +18,8 @@ function App() {
       {/* <ShoppingCart></ShoppingCart> */}
       {/* <MyComponent></MyComponent> */}
       {/* <SetStateOnClick></SetStateOnClick> */}
-      <Toggle></Toggle>
+      {/* <Toggle></Toggle> */}
+      <Counter></Counter>
     </div>
   );
 }
