@@ -1,6 +1,7 @@
 import Calender from "./components/Calender";
 import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
+import MyComponent from "./components/MyComponent";
 import ParentComponent from "./components/ParentComponent";
 import ShoppingCart from "./components/ShoppingCart";
 
@@ -11,7 +12,8 @@ function App() {
       {/* <FirstCLassComponent></FirstCLassComponent> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <Calender></Calender> */}
-      <ShoppingCart></ShoppingCart>
+      {/* <ShoppingCart></ShoppingCart> */}
+      <MyComponent></MyComponent>
     </div>
   );
 }
