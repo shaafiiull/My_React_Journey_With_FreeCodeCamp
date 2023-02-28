@@ -3,6 +3,7 @@ import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
 import MyComponent from "./components/MyComponent";
 import ParentComponent from "./components/ParentComponent";
+import SetStateOnClick from "./components/SetStateOnClick";
 import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       {/* <ParentComponent></ParentComponent> */}
       {/* <Calender></Calender> */}
       {/* <ShoppingCart></ShoppingCart> */}
-      <MyComponent></MyComponent>
+      {/* <MyComponent></MyComponent> */}
+      <SetStateOnClick></SetStateOnClick>
     </div>
   );
 }
