@@ -5,6 +5,7 @@ import MyComponent from "./components/MyComponent";
 import ParentComponent from "./components/ParentComponent";
 import SetStateOnClick from "./components/SetStateOnClick";
 import ShoppingCart from "./components/ShoppingCart";
+import Toggle from "./components/Toggle";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Calender></Calender> */}
       {/* <ShoppingCart></ShoppingCart> */}
       {/* <MyComponent></MyComponent> */}
-      <SetStateOnClick></SetStateOnClick>
+      {/* <SetStateOnClick></SetStateOnClick> */}
+      <Toggle></Toggle>
     </div>
   );
 }
