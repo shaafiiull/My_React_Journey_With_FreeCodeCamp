@@ -1,5 +1,6 @@
 import Calender from "./components/Calender";
 import MyForm from "./components/ControlledForm";
+import Controller from "./components/Controller";
 import Counter from "./components/Counter";
 import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
@@ -23,7 +24,8 @@ function App() {
       {/* <Toggle></Toggle> */}
       {/* <Counter></Counter> */}
       {/* <MyForm></MyForm> */}
-      <LifeCycleComponent></LifeCycleComponent>
+      {/* <LifeCycleComponent></LifeCycleComponent> */}
+      <Controller></Controller>
     </div>
   );
 }
