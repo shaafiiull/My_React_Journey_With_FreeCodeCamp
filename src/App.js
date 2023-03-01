@@ -3,6 +3,7 @@ import MyForm from "./components/ControlledForm";
 import Counter from "./components/Counter";
 import FirstCLassComponent from "./components/FirstCLassComponent";
 import HelloJSX from "./components/HelloJSX";
+import LifeCycleComponent from "./components/LifeCycleComponent";
 import MyComponent from "./components/MyComponent";
 import ParentComponent from "./components/ParentComponent";
 import SetStateOnClick from "./components/SetStateOnClick";
@@ -21,7 +22,8 @@ function App() {
       {/* <SetStateOnClick></SetStateOnClick> */}
       {/* <Toggle></Toggle> */}
       {/* <Counter></Counter> */}
-      <MyForm></MyForm>
+      {/* <MyForm></MyForm> */}
+      <LifeCycleComponent></LifeCycleComponent>
     </div>
   );
 }
