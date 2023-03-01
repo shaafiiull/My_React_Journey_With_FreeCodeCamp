@@ -1,4 +1,5 @@
 import Calender from "./components/Calender";
+import CheckUserAge from "./components/CheckUserAge";
 import MyForm from "./components/ControlledForm";
 import Controller from "./components/Controller";
 import Counter from "./components/Counter";
@@ -25,7 +26,8 @@ function App() {
       {/* <Counter></Counter> */}
       {/* <MyForm></MyForm> */}
       {/* <LifeCycleComponent></LifeCycleComponent> */}
-      <Controller></Controller>
+      {/* <Controller></Controller> */}
+      <CheckUserAge></CheckUserAge>
     </div>
   );
 }
